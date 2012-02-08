@@ -59,15 +59,15 @@ order ('Bond, James' and 'James Bond'), use of initials
 titles and honorifics ('Fleet Admiral William Frederick Halsey, Jr., USN',
 and 'William Frederick Halsey').
 
-  >>> print round(name_tools.match('Eric Schmidt', 'Eric Schmidt'), 6)
+  >>> print(round(name_tools.match('Eric Schmidt', 'Eric Schmidt'), 6))
   1.0
-  >>> print round(name_tools.match('Bob Dole', 'Dole, Bob'), 6)
+  >>> print(round(name_tools.match('Bob Dole', 'Dole, Bob'), 6))
   0.98
-  >>> print round(name_tools.match("Mr. X", "X"), 6)
+  >>> print(round(name_tools.match("Mr. X", "X"), 6))
   0.95
-  >>> print round(name_tools.match('Jeff Tweedy', 'J Tweedy'), 6)
+  >>> print(round(name_tools.match('Jeff Tweedy', 'J Tweedy'), 6))
   0.9
-  >>> print round(name_tools.match('Ferris Bueller', 'Bueller'), 6)
+  >>> print(round(name_tools.match('Ferris Bueller', 'Bueller'), 6))
   0.8
-  >>> print round(name_tools.match('John Smith', 'John Johnson'), 6)
+  >>> print(round(name_tools.match('John Smith', 'John Johnson'), 6))
   0.0

@@ -1,4 +1,4 @@
-from affixes import split_prefixes, split_suffixes
+from .affixes import split_prefixes, split_suffixes
 import re
 
 # List of compound prefixes adapted from
